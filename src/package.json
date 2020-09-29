@@ -1,0 +1,31 @@
+{
+  "name": "vulcan",
+  "version": "0.0.5",
+  "description": "Discord",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "discord.js": "^11.6.4",
+    "pkg": "^4.4.9",
+    "systeminformation": "^4.27.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "n/a"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "Glitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}
