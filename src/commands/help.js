@@ -10,8 +10,7 @@ module.exports = {
         const command = messageArray[1]
         if(!command) {
             const newEmbed = new Discord.RichEmbed()
-            newEmbed.addField('***General***', '`help`, `ascii`, `createchannels`, `deletechannels`, `embed`, `getroblox`, `logger`, `massdm`, `selfpurge`, `serverinfo`, `setstatus`, `smoke', `spam`, `sysinfo`, `userinfo`)
-            newEmbed.setDescription('View specific usage for a command via (prefix)help [commandname]')
+            newEmbed.setDescription('***General***\n`help`, `ascii`, `createchannels`, `deletechannels`, `embed`, `getroblox`, `logger`, `massdm`, `selfpurge`, `serverinfo`, `setstatus`, `smoke`, `spam`, `sysinfo`, `userinfo`\n***View specific usage for a command via (prefix)help [commandname]**')
             newEmbed.setAuthor('Vulcan Help Center')
             message.channel.send(newEmbed)
 

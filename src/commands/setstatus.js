@@ -10,7 +10,7 @@ module.exports = {
         const messageArray = message.content.split(' ')
         const type = messageArray[1]
         const setStatusString = messageArray.slice(2).join(' ')
-    
+        type.toLowerCase()
         switch(type) {
             case('streaming'):
                 client.user.setActivity(setStatusString, {type: 'STREAMING', url: settings.twitchURL})
